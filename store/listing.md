@@ -18,4 +18,4 @@ Prevent YouTube videos from playing until the user starts them.
 None; the extension requests no `permissions`.
 
 ## Host permission justification
-Needed to pause autoplaying videos on YouTube pages (youtube.com) and embedded YouTube players (youtube-nocookie.com). The script runs only on these two domains.
+Needed to pause autoplaying videos on YouTube pages (www.youtube.com). The script runs only on this domain.
