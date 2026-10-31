@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "No Autoplay",
+  "version": "1.0",
+  "description": "Stops videos from autoplaying. Videos only play after a manual click or key press.",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ]
+}
